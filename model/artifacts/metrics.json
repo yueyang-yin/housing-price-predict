@@ -1,0 +1,8 @@
+{
+  "test_mse_log": 0.06363128739950735,
+  "test_j_mse_over_2_log": 0.031815643699753676,
+  "test_rmse_log": 0.2522524279358027,
+  "test_r2_log": 0.7511174473974092,
+  "best_iteration": 198,
+  "test_acc_within_10pct_price": 0.45773874862788144
+}
