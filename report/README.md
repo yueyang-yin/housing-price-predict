@@ -97,3 +97,9 @@ All trained models, feature definitions, hyperparameters, and evaluation metrics
 This project presents a **complete, end-to-end machine learning pipeline** for house price prediction. The workflow encompasses data preprocessing, feature engineering, systematic model comparison, final model training with early stopping, and inference from raw real-world inputs.
 
 The resulting system is robust, reproducible, and readily extensible. Potential future extensions include deployment through a RESTful API, integration with web-based user interfaces, or further model refinement using additional data sources or advanced ensemble techniques.
+
+---
+
+## 6. Notes
+
+Unless explicitly specified in the notebook, XGBoost hyperparameters not listed are kept at their default values. The training script follows the same configuration, ensuring consistency between the notebook experiments and the scripted implementation.
