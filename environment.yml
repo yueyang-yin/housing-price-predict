@@ -1,4 +1,4 @@
-name: ml
+name: housing_price_predict
 channels:
   - defaults
 dependencies:
@@ -154,4 +154,4 @@ dependencies:
       - werkzeug==3.1.4
       - wrapt==2.0.1
       - xgboost==1.7.6
-prefix: /Users/yinyueyang/opt/anaconda3/envs/ml
+prefix: /Users/yinyueyang/opt/anaconda3/envs/housing_price_predict
