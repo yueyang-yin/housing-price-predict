@@ -46,13 +46,13 @@ To reproduce the training and inference results locally, ensure that the require
 ### Train the model
 
 ```bash
-python model/src/train.py
+python3 model/src/train.py
 ```
 
 ### Run prediction
 
 ```bash
-python model/src/predict.py --input data/raw_input.csv --mode raw
+python3 model/src/predict.py --input data/raw_input.csv --mode raw
 ```
 
 All trained models, feature definitions, and evaluation metrics are stored under `model/artifacts/`.
