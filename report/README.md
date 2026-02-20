@@ -79,13 +79,13 @@ All dependencies must be installed prior to executing the scripts described belo
 ### Model Training
 
 ```bash
-python model/src/train.py
+python3 model/src/train.py
 ```
 
 ### Model Inference
 
 ```bash
-python model/src/predict.py --input data/raw_input.csv --mode raw
+python3 model/src/predict.py --input data/raw_input.csv --mode raw
 ```
 
 All trained models, feature definitions, hyperparameters, and evaluation metrics are stored under `model/artifacts/`, ensuring that the experimental results are fully reproducible.
